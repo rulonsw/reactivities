@@ -1,0 +1,11 @@
+/home/rwood/github/rulonsw/Reactivities/Persistence/bin/Debug/netstandard2.0/Persistence.deps.json
+/home/rwood/github/rulonsw/Reactivities/Persistence/bin/Debug/netstandard2.0/Persistence.dll
+/home/rwood/github/rulonsw/Reactivities/Persistence/bin/Debug/netstandard2.0/Persistence.pdb
+/home/rwood/github/rulonsw/Reactivities/Persistence/bin/Debug/netstandard2.0/Domain.dll
+/home/rwood/github/rulonsw/Reactivities/Persistence/bin/Debug/netstandard2.0/Domain.pdb
+/home/rwood/github/rulonsw/Reactivities/Persistence/obj/Debug/netstandard2.0/Persistence.csprojAssemblyReference.cache
+/home/rwood/github/rulonsw/Reactivities/Persistence/obj/Debug/netstandard2.0/Persistence.AssemblyInfoInputs.cache
+/home/rwood/github/rulonsw/Reactivities/Persistence/obj/Debug/netstandard2.0/Persistence.AssemblyInfo.cs
+/home/rwood/github/rulonsw/Reactivities/Persistence/obj/Debug/netstandard2.0/Persistence.csproj.CopyComplete
+/home/rwood/github/rulonsw/Reactivities/Persistence/obj/Debug/netstandard2.0/Persistence.dll
+/home/rwood/github/rulonsw/Reactivities/Persistence/obj/Debug/netstandard2.0/Persistence.pdb

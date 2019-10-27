@@ -1,0 +1,8 @@
+/home/rwood/github/rulonsw/Reactivities/Domain/bin/Debug/netstandard2.0/Domain.deps.json
+/home/rwood/github/rulonsw/Reactivities/Domain/bin/Debug/netstandard2.0/Domain.dll
+/home/rwood/github/rulonsw/Reactivities/Domain/bin/Debug/netstandard2.0/Domain.pdb
+/home/rwood/github/rulonsw/Reactivities/Domain/obj/Debug/netstandard2.0/Domain.csprojAssemblyReference.cache
+/home/rwood/github/rulonsw/Reactivities/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfoInputs.cache
+/home/rwood/github/rulonsw/Reactivities/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfo.cs
+/home/rwood/github/rulonsw/Reactivities/Domain/obj/Debug/netstandard2.0/Domain.dll
+/home/rwood/github/rulonsw/Reactivities/Domain/obj/Debug/netstandard2.0/Domain.pdb
