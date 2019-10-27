@@ -12,6 +12,19 @@
 *.dll.config
 *.cache
 *.suo
+
+appsettings.json
+*.db
+
+# Within project folders too
+**/*.com
+**/*.class
+**/*.dll
+**/*.exe
+**/*.pdb
+**/*.dll.config
+**/*.cache
+**/*.suo
 # Include dlls if they’re in the NuGet packages directory
 !/packages/*/lib/*.dll
 # Include dlls if they're in the CommonReferences directory

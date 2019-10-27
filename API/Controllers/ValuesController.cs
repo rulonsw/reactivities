@@ -2,40 +2,39 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Domain;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Persistence;
 
 namespace API.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class ValuesController : ControllerBase
+  [ApiController]
+  [Route("api/[controller]")]
+  public class ValuesController : ControllerBase
+  {
+
+    private readonly DataContext _context;
+
+    public ValuesController(DataContext context)
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "value1", "value2"
-        };
-
-        private readonly ILogger<ValuesController> _logger;
-
-        public ValuesController(ILogger<ValuesController> logger)
-        {
-            _logger = logger;
-        }
-
-
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
-        {
-            return Summaries;
-        }
-
-        // GET api/WeatherForecast/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
-        }
+      _context = context;
     }
+
+
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<Value>>> Get()
+    {
+        var values = await _context.Values.ToListAsync();
+        return Ok(values);
+    }
+
+    [HttpGet("{id}")]
+    public async Task<ActionResult<string>> Get(int id)
+    {
+        var value = await _context.Values.FindAsync(id);
+        return Ok(value);
+    }
+  }
 }
